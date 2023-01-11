@@ -1,0 +1,21 @@
+{
+  "name": "delani_node_app",
+  "version": "1.0.0",
+  "description": "delani-node-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmuthui/MoringaProjects-Delani-Node-App.git"
+  },
+  "keywords": [],
+  "author": "David Emerald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmuthui/MoringaProjects-Delani-Node-App/issues"
+  },
+  "homepage": "https://github.com/dmuthui/MoringaProjects-Delani-Node-App#readme"
+}
