@@ -4,7 +4,8 @@ function login (res){
 }
 let handler = require("./requestHandlers")
 function home (res){
-    res.write("This is the Home page")
+    res.writeHead(200,{"Content-Type": "text/html"});
+    res.write("<h1>This is the home page!</h1>")
     res.end();
 }
 function aboutUs (res){

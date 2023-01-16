@@ -6,7 +6,6 @@ let start = function () {
     let server = http.createServer((req, res) => {
        //route the request
        router.router(req, res);
-        
         // console.log("Received a request");
         // res.writeHead(200, {});
         // res.write("Hello World");
